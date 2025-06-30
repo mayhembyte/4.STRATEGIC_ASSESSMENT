@@ -7,12 +7,17 @@
 <head>
   <meta charset="UTF-8" />
   <title>Sua Animação</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Permitir exibição em iframe (importante para Wix) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' blob: data: gap:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval' *;">
   <style>
     html, body {
       margin: 0;
       padding: 0;
       overflow: hidden;
       background: #000;
+      width: 100%;
+      height: 100%;
     }
     canvas {
       display: block;
